@@ -1,0 +1,31 @@
+name: flake check
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Nix
+        uses: cachix/install-nix-action@master
+        with:
+          extra_nix_config: "experimental-features = nix-command flakes"
+
+      - uses: actions/checkout@v3
+
+      - name: flake check
+        run: nix flake check
+
+      - name: flake metadata
+        run: nix flake metadata
+
+      - name: flake show
+        run: nix flake show
+
+      - name: build package
+        run: nix build .#default --print-build-logs
