@@ -21,11 +21,11 @@
     "illustris-lib": {
       "flake": false,
       "locked": {
-        "lastModified": 1766880832,
-        "narHash": "sha256-KK6vMGQuc1LJwiSaHxOQUYIBdBR5jQotsivuQvF5MXs=",
+        "lastModified": 1767485616,
+        "narHash": "sha256-rAD1fQJHCeQaJpaOER8y39fcMSUcZPt7cnubtfT2uwE=",
         "owner": "illustris",
         "repo": "flake",
-        "rev": "a150d16c6a03dc46326f2fadf36268bb2a7fdfbc",
+        "rev": "a86c737d765af0c03a72a0b9cb0cf7e483622bde",
         "type": "github"
       },
       "original": {
@@ -36,11 +36,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1766651565,
-        "narHash": "sha256-QEhk0eXgyIqTpJ/ehZKg9IKS7EtlWxF3N7DXy42zPfU=",
+        "lastModified": 1767379071,
+        "narHash": "sha256-EgE0pxsrW9jp9YFMkHL9JMXxcqi/OoumPJYwf+Okucw=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "3e2499d5539c16d0d173ba53552a4ff8547f4539",
+        "rev": "fb7944c166a3b630f177938e478f0378e64ce108",
         "type": "github"
       },
       "original": {
