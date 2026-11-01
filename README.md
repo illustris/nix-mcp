@@ -1,3 +1,6 @@
+# archived
+Harnesses handle verbose outputs in shell tool calls better now. This is no longer needed.
+
 # Nix MCP Server
 
 A Model Context Protocol (MCP) server for working with Nix derivations, expressions, and flakes.
